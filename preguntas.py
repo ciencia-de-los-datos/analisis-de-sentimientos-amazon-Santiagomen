@@ -21,7 +21,7 @@ def pregunta_01():
     # Lea el archivo `amazon_cells_labelled.tsv` y cree un DataFrame usando pandas.
     # Etiquete la primera columna como `msg` y la segunda como `lbl`. Esta función
     # retorna el dataframe con las dos columnas.
-     df = pd.read_csv(
+    df = pd.read_csv(
         "/content/amazon_cells_labelled.tsv", 
         sep="\t",
         header = None,
